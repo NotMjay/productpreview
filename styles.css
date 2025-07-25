@@ -42,8 +42,8 @@ a:hover{
     width: 600px ;
     height: 400px;
     border-radius: 20px;
-    display: flex;
     background-color: hsl(0, 0%, 100%);
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -96,6 +96,26 @@ a:hover{
     width: 20px;
     height: 15px;
     margin-right: 10px;
+}
+@media only screen and (max-width: 375px) {
+    .container{
+        flex-direction: column;
+        width: 300px;
+        height: 800px;
+    }
+    img{
+        border-radius: 0;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .perfume{
+        width: 300px;
+        height: 50%;
+    }
+    .text{
+        width: 300px;
+        height: 50%;
+    }
 }
 
 
